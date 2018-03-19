@@ -1,0 +1,18 @@
+<h1>Chirps</h1>
+
+<a href="$(link_to(:get_chirps_new))">Chirp in</a>
+<br /><br />
+
+<% output_flash(@params) %>
+
+<ul>
+  <% @foreach(@vars(:chirps)) do ch %>
+    <li>
+      $(ch.content)
+    </li>
+  <% end %>
+</ul>
+
+<div>
+  <% ViewHelper.chirps_pagination(@vars(:total_chirps), @vars(:chirps_per_page)) %>
+</div>

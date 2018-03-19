@@ -1,0 +1,28 @@
+env:
+
+dev:
+  adapter: SQLite
+  database:
+  host: db/dev.sqlite
+  username:
+  password:
+  port:
+  config:
+
+prod:
+  adapter:
+  database:
+  host:
+  username:
+  password:
+  port:
+  config:
+
+test:
+  adapter: SQLite
+  database: db/test.sqlite
+  host:
+  username:
+  password:
+  port:
+  config:

@@ -1,0 +1,7 @@
+<h1>New chirp</h1>
+
+<form action="$(link_to(:get_chirps))" method="POST">
+  <textarea name="content" placeholder="Chirp content">$(@vars(:chirp).content)</textarea>
+  <div><% output_errors(@vars(:chirp), :content) %></div>
+  <input type="submit" value="Chirp!" />
+</form>
