@@ -1,8 +1,8 @@
 using Router, ChirpsController
 
 route("/") do
-  Router.serve_static_file("welcome.html")
-  # Router.respond_with_html("home", "home_page.md")
+  # Router.serve_static_file("welcome.html")
+  respond_with_html("home", "home_page.md")
 end
 
 route("/chirps", ChirpsController.index)
