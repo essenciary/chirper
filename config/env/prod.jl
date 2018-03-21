@@ -12,6 +12,7 @@ const config =  Settings(
                   log_cache           = false,
                   log_level           = "error",
                   log_verbosity       = LOG_LEVEL_VERBOSITY_MINIMAL,
+                  log_views           = false, 
                   assets_path         = "/",
                   cache_duration      = 1_000,
                   session_auto_start  = false

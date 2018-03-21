@@ -3,8 +3,8 @@ module ChirpsController
 using App, SearchLight, Chirps, Validation
 @dependencies
 
-before_hook() = println("I run before the action")
-after_hook() = println("I run after the action")
+# before_hook() = println("I run before the action")
+# after_hook() = println("I run after the action")
 # rescue_hook(ex::Exception) = redirect_to("/omg")
 
 const CHIRPS_PER_PAGE = 20

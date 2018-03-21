@@ -10,9 +10,9 @@ dev:
   config:
 
 prod:
-  adapter:
+  adapter: SQLite
   database:
-  host:
+  host: db/dev.sqlite
   username:
   password:
   port:

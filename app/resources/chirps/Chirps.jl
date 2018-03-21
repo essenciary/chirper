@@ -1,6 +1,6 @@
 module Chirps
 
-using SearchLight, Faker, ChirpsValidator
+using SearchLight, Faker, ChirpsValidator, Validation
 
 export Chirp
 
