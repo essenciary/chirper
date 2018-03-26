@@ -1,3 +1,5 @@
+<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+$(@eval :(using Predix))
 <h1>Chirps</h1>
 
 <a href="$(link_to(:get_chirps_new))">Chirp in</a>
@@ -16,3 +18,5 @@
 <div>
   <% ViewHelper.chirps_pagination(@vars(:total_chirps), @vars(:chirps_per_page)) %>
 </div>
+
+<px-spinner></px-spinner>

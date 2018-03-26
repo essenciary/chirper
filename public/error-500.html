@@ -30,7 +30,7 @@
           <h3>KEEP CALM - We'll be back in 5!</h3>
           <br>
           <a href="/" class="btn btn-lg btn-red">Go Home</a>
-          <a class="btn btn-info btn-lg" role="button" data-toggle="collapse" href="#error-console" aria-expanded="false" aria-controls="error-console">
+          <a class="btn btn-info btn-lg" role="button" data-toggle="collapse" href="#error-console" aria-expanded="true" aria-controls="error-console">
             Error details
           </a>
         </div>
@@ -45,8 +45,7 @@
   <div class="container-fluid collapse" id="error-console">
     <div class="row me-row content-ct">
       <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
+        <div class="col-md-10 col-md-offset-1">
           <pre>
             <code class="language-julia">
 <error_message/>
@@ -106,5 +105,10 @@
   <script src="/js/ansi_up.js"></script>
   <script src="/js/static.js"></script>
   <script src="/js/prism.js"></script>
+  <script>
+    $(function() {
+      $()
+    });
+  </script>
 </body>
 </html>

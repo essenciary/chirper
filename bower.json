@@ -1,0 +1,21 @@
+{
+  "name": "genie-app",
+  "description": "A new Genie app",
+  "main": "index.js",
+  "authors": [
+    "Author"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/essenciary/chirper",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "px-spinner": "^2.2.2"
+  }
+}
